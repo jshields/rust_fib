@@ -19,6 +19,8 @@ pub fn fib_n(n: u32) -> u32 {
         // swap is needed to maintain the a,b sequence
         let old_b = b;
 
+        // WARN: panic due to addition overflow with larger fib_to values.
+        // How to solve this?
         b = a + b;  // fib calculation done here
 
         a = old_b;  // swap done, a,b now ready for next iteration
