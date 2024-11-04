@@ -1,5 +1,5 @@
 [package]
-name = "rust_fun"
+name = "rust_fib"
 version = "0.1.0"
 edition = "2021"
 
